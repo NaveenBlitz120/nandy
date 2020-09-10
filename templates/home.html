@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Site</title>
+  </head>
+  <body>
+
+    <form action="" method="get">
+     {{form}}
+     <input type="submit">
+     </form>
+
+
+    <div class="articles">
+      {% for post in posts %}
+        <p>{{ post.title }}:{{ post.body }}</p>
+      {% endfor %}
+    </div>
+  </body>
+</html>
