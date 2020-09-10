@@ -25,7 +25,7 @@ SECRET_KEY = 'qdch&y*@yzam7qm619=-6k7(dpns7_@bkoq@&*-twj#*zqcs#!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ajpchat.herokuapp.com/']
 
 
 # Application definition
